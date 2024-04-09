@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #e7b0a0c5; /* colorful background */
+}
+
+.container {
+    width: 90%; /* Adjust container width as needed */
+    max-width: 800px; /* Maximum width for larger screens */
+    margin: 50px auto;
+    background-color: #f5bbac;
+    border-radius: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content */
+}
+
+h1 {
+    color: #333;
+}
+
+.image-container {
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+
+.image-container img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 50Px;
+    font-weight: bold;
+    line-height: 15;
+    margin: 10px 0;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    
+}
+
+
+
+
+
